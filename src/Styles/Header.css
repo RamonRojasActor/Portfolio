@@ -92,6 +92,7 @@ header h1{
     .header__socials{
         transform: translateX(-10px);
     }
+    
 
 }
 
@@ -99,7 +100,7 @@ header h1{
 /*Small devices*/
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 85vh;
     }
 
     .header__socials,
@@ -107,4 +108,7 @@ header h1{
         display: none;
     }
 
+    .me{
+        height: 85vh;
+    }
 }   

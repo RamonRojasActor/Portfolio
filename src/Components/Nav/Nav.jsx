@@ -25,11 +25,11 @@ const Nav = () => {
           <BiUserPin />
       </a>
 
-      <a href="#experience" 
+      {/* <a href="#experience" 
         className={activeSection === '#experience' ? 'active' : ''}
         onClick={() => setActiveSection('#experience')}>
           <GiClassicalKnowledge />
-      </a>
+      </a> */}
 
       <a href="#news" 
         className={activeSection === '#news' ? 'active' : ''}
