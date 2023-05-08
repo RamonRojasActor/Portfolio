@@ -4,7 +4,6 @@ import {BiUserPin} from 'react-icons/bi'
 import {MdContactPage} from 'react-icons/md'
 import {IoHome} from 'react-icons/io5'
 import {MdNewspaper} from 'react-icons/md'
-import {GiClassicalKnowledge} from 'react-icons/gi'
 import { useState } from 'react'
 
 const Nav = () => {
@@ -24,12 +23,6 @@ const Nav = () => {
         onClick={() => setActiveSection('#about')}>
           <BiUserPin />
       </a>
-
-      {/* <a href="#experience" 
-        className={activeSection === '#experience' ? 'active' : ''}
-        onClick={() => setActiveSection('#experience')}>
-          <GiClassicalKnowledge />
-      </a> */}
 
       <a href="#news" 
         className={activeSection === '#news' ? 'active' : ''}

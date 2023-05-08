@@ -21,25 +21,26 @@ const About = () => {
             <article className='about__card'>
               <TbAward className='about__icon'/>
               <h5>Experiencia</h5>
-              <small>2+ años</small>
+              <small>8+ años en obras teatrales y cinemáticas</small>
             </article>
 
             <article className='about__card'>
               <GoBook className='about__icon'/>
               <h5>Estudios</h5>
-              <small>Escuela de teatro en Madrid</small>
+              <small>Laboratorio teatral Willam Layton y Master de arte dramático aplicado por la Universidad de Alicante</small>
             </article>
 
             <article className='about__card'>
               <BsStars className='about__icon'/>
               <h5>Apariciones</h5>
-              <small>10+ obras teatrales y series televisivas</small>
+              <small>No se que poner, asi que en tus sueños bb</small>
             </article>
           </div>
 
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit est veniam molestias doloribus blanditiis ipsam mollitia? Iste expedita suscipit, unde autem veritatis voluptas quibusdam fuga dignissimos, non quas soluta.</p>
+          <p>Hola! Me presento, me llamo Ramón y soy actor.</p>
+          <p>Me apasiona todo lo que tenga que ver con el teatro o el cine. Podría decirse que soy un "workaholic".</p>
+          <p>Siempre estoy buscando nuevas formas de superarme en proyectos en los que pueda disfrutar del proceso para poder aprender todo lo que pueda y mas!</p>
 
-          {/* <a href="#contact" className='btn btn-primary'> Contacto</a> */}
         </div>
       </div>
     </section>
