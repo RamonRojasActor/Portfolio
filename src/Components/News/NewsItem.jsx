@@ -9,7 +9,7 @@ const NewsItem = (props) => {
         <h3>{props.title}</h3>
         <small>
           <p>
-            This is an example, the site is under construcion
+            {props.txt}
           </p>
         </small>
         <a className='link' href={props.href} target="_blank" rel='noreferrer'>Ver Más</a>

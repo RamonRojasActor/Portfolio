@@ -36,11 +36,13 @@ const About = () => {
               <small>No se que poner, asi que en tus sueños bb</small>
             </article>
           </div>
-
-          <p>Hola! Me presento, me llamo Ramón y soy actor.</p>
-          <p>Me apasiona todo lo que tenga que ver con el teatro o el cine. Podría decirse que soy un "workaholic".</p>
-          <p>Siempre estoy buscando nuevas formas de superarme en proyectos en los que pueda disfrutar del proceso para poder aprender todo lo que pueda y mas!</p>
-
+          
+          <div className="about__text">
+            <p>Hola! Me presento, me llamo Ramón y soy actor.</p>
+            <p>Me apasiona todo lo que tenga que ver con el teatro o el cine. Podría decirse que soy un "workaholic".</p>
+            <p>Siempre estoy buscando nuevas formas de superarme en proyectos en los que pueda disfrutar del proceso para poder aprender todo lo que pueda y mas!</p>
+          </div>
+          
         </div>
       </div>
     </section>

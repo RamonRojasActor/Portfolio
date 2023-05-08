@@ -11,13 +11,23 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+722503555</h5>
-            <a href="https://wa.me/722503555">Contacta</a>
+            <h5>+600117518</h5>
+            <a href="https://wa.me/600117518" 
+              target="_blank" 
+              rel="noreferrer">
+              Contacta (Web)
+            </a>
+
+            <a href="whatsapp://send?phone=34600117518"
+              target="_blank" 
+              rel="noreferrer">
+              Contacta (App)
+            </a>
           </article>
         </div>
 
-
-        {/*Formulaio para enviar correo*/}
+        <p>Correo Electrónico: </p>
+        {/*Formulaio para enviar correo
         <form action="">
           
             <input type="text" name='name'  placeholder='Nombre y Apellidos' required/>
@@ -28,6 +38,7 @@ const Contact = () => {
             <button type='submit' className='btn btn-primary'>Contactar</button>
           
         </form>
+        */}
       </div>
     </section>
 
