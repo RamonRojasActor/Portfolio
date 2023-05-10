@@ -44,12 +44,20 @@
    margin: 0.5rem auto 0;
 }
 
+.about__cards{
+    margin-bottom: 2rem;
+}
 
 /*medium devices*/
 
 @media screen and (max-width: 1024px){
     .news__item{
         width: 40%;
+    }
+
+    .about__cards{
+        flex-direction: column;
+        padding: 0 2rem 0 2rem;
     }
 }
   
