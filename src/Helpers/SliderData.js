@@ -1,7 +1,22 @@
 export const images = [
-    '../assets/image1.jpg',
-    '../assets/image2.jpg',
-    '../assets/image3.jpg',
-    '../assets/image4.jpg'
+    {   
+        id : 1,
+        img : '../../assets/image1.jpg'
+    },
+
+    {
+        id : 2,
+        img : '../../assets/image2.jpg'
+    },
+
+    {
+        id : 3,
+        img : '../../assets/image3.jpg'
+    },
+
+    {
+        id : 4,
+        img : '../../assets/image4.jpg'
+    },
 
 ]
