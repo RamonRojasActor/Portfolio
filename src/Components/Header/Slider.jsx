@@ -8,6 +8,18 @@ const Slider = () => {
     
   return (
     <>
+    {images.map((image) => {
+      return (
+        <div
+          className={index === current ? 'slide active' : 'slide'}
+          key={index}
+        >
+          {index === current && (
+            <img src={image} alt='travel image' className='image' />
+          )}
+        </div>
+      );
+    })}
     <img src={images[currentImg].img} alt="Sample Text" />
     <div><BsArrowRight /></div>
     <div>aaaa</div>

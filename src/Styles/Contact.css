@@ -1,6 +1,7 @@
 #contact{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
+    padding-bottom: 5rem;
 }
 
 .container.contact__container{
@@ -13,6 +14,7 @@
 .contact__options{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -25,14 +27,14 @@
 }
 
 .contact__option-icon{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.75rem;
 }
 
 .contact__option a{
-    margin-top: 0.5rem;
-    display: inline-block;
+    margin: 0.25rem;
     font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
 }
 
 /*FORM*/
@@ -51,13 +53,18 @@ input, textarea{
 /*medium devices*/
 
 @media screen and (max-width: 1024px){
-
+    .container.contact__container{
+        grid-template-columns:  1fr;
+        gap: 1rem;
+    }
 }
   
 /*Small devices*/
   
 @media screen and (max-width: 600px){
-
+    .container.contact__container{
+        width: var(--container-width-ms);
+    }
 }
   
   

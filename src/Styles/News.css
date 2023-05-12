@@ -15,7 +15,6 @@
 .news__item{
     width: 20rem;
     margin: 0.75rem; 
-    height: fit-content;
     border: 0.15rem solid  var( --color-primary) ;
     text-align: center;
     padding: 2rem;
@@ -45,11 +44,20 @@
    margin: 0.5rem auto 0;
 }
 
+.about__cards{
+    margin-bottom: 2rem;
+}
+
 /*medium devices*/
 
 @media screen and (max-width: 1024px){
     .news__item{
         width: 40%;
+    }
+
+    .about__cards{
+        flex-direction: column;
+        padding: 0 2rem 0 2rem;
     }
 }
   
@@ -57,7 +65,12 @@
 
 @media screen and (max-width: 600px){
     .news__item{
-        width: 60%;
+        width: 75%;
     }
 
+    .news__item h3,p{
+        height: 4rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
 }
