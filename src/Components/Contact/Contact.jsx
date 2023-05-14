@@ -31,6 +31,7 @@ const Contact = () => {
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
+            <h5>Ramón Rojas Valera</h5>
             <a href="https://www.linkedin.com/in/ram%C3%B3n-rojas-valera-537485261/" 
               target="_blank" 
               rel="noreferrer">

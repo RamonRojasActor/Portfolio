@@ -1,6 +1,6 @@
 import '../../Styles/About.css'
 import React from 'react'
-import me from '../../assets/image3.jpg'
+import me from '../../assets/about_image.jpg'
 import {TbAward} from 'react-icons/tb'
 import {GoBook} from 'react-icons/go'
 import {BsStars} from 'react-icons/bs'
