@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.878796bd.css",
+    "main.js": "/Portfolio/static/js/main.eda488b0.js",
+    "static/media/CVRamónRojas.pdf": "/Portfolio/static/media/CVRamónRojas.8f63ebbee62a7ba70e52.pdf",
+    "static/media/image5.jpg": "/Portfolio/static/media/image5.c0541aabaf86a6c33d52.jpg",
+    "static/media/about_image.jpg": "/Portfolio/static/media/about_image.2b38348e3e062bbe9437.jpg",
+    "static/media/image2.jpg": "/Portfolio/static/media/image2.ed8bf98be61f6af5c349.jpg",
+    "static/media/image1.jpg": "/Portfolio/static/media/image1.3ae258a1eec1893f4207.jpg",
+    "static/media/image4.jpg": "/Portfolio/static/media/image4.ff94d16c96ebe6ecba98.jpg",
+    "static/media/image6.jpg": "/Portfolio/static/media/image6.03cae7f2190de3aa1967.jpg",
+    "static/media/image3.jpg": "/Portfolio/static/media/image3.4dd7aac6820371c18f24.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.878796bd.css.map": "/Portfolio/static/css/main.878796bd.css.map",
+    "main.eda488b0.js.map": "/Portfolio/static/js/main.eda488b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.878796bd.css",
+    "static/js/main.eda488b0.js"
+  ]
+}
