@@ -33,7 +33,7 @@ const About = () => {
             <article className='about__card'>
               <BsStars className='about__icon'/>
               <h5>Apariciones</h5>
-              <small>No se que poner, asi que en tus sueños bb</small>
+              <small>TBA</small>
             </article>
           </div>
           
