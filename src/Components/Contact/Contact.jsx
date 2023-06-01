@@ -14,7 +14,6 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5></h5>
             <a href="https://wa.me/600117518" 
               target="_blank" 
               rel="noreferrer">
@@ -53,26 +52,8 @@ const Contact = () => {
 
         <div>
           <p>Correo Electrónico: ramonrojasactor@gmail.com</p>
-          <p></p>
         </div>
-        
-        
-        { /*Formulario para enviar correo
-        <form action="">
-          
-            <input type="text" name='name'  placeholder='Nombre y Apellidos' required/>
 
-            <input type="email" placeholder='Ej: placeholder@mail.com' required/>
-            
-            <textarea name="message"  rows="10" required></textarea>
-            <button type='submit' className='btn btn-primary'>Contactar</button>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramonrojasactor@gmail.com"
-              target="_blank" 
-              rel="noreferrer">
-              Contacta (Gmail)
-            </a>
-        </form>
-       */}
       </div>
     </section>
 
