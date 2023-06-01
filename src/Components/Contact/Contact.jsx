@@ -14,7 +14,7 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+34 600 117 518</h5>
+            <h5></h5>
             <a href="https://wa.me/600117518" 
               target="_blank" 
               rel="noreferrer">
@@ -53,7 +53,7 @@ const Contact = () => {
 
         <div>
           <p>Correo Electrónico: ramonrojasactor@gmail.com</p>
-          <p>Teléfono: +34 600 117 518</p>
+          <p></p>
         </div>
         
         
